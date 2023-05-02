@@ -1,0 +1,315 @@
+{
+    "_id": "63f723084fe6cc79294a96d6",
+    "name": "dalee",
+    "slug": "dalee",
+    "organizationId": "Org",
+    "isPublic": true,
+    "isMenu": false,
+    "createdAt": "2023-02-23T08:25:44.488Z",
+    "updatedAt": "2023-03-01T13:12:17.243Z",
+    "deleted": false,
+    "pages": [
+        {
+            "_id": "home",
+            "isDefault": true
+        },
+        {
+            "_id": "Collections",
+            "isDefault": false
+        },
+        {
+            "_id": "SingleCollection",
+            "isDefault": false
+        },
+        {
+            "_id": "Gallery",
+            "isDefault": false
+        },
+        {
+            "_id": "Filtered Gallery",
+            "isDefault": false
+        }
+    ],
+    "policies": [
+        {
+            "permission": "makePublic:applications",
+            "groups": [],
+            "users": []
+        },
+        {
+            "permission": "read:applications",
+            "groups": [],
+            "users": []
+        },
+        {
+            "permission": "publish:applications",
+            "groups": [],
+            "users": []
+        },
+        {
+            "permission": "manage:applications",
+            "groups": [],
+            "users": []
+        }
+    ],
+    "settings_data": {
+        "httpIns": []
+    },
+    "function_dsl": [
+        {
+            "isVisible": true,
+            "backgroundColor": "#FFFFFF",
+            "widgetName": "testMenu",
+            "containerStyle": "card",
+            "borderColor": "transparent",
+            "borderWidth": "0",
+            "borderRadius": "10",
+            "boxShadow": "VARIANT2",
+            "animateLoading": true,
+            "dontLookPage": [],
+            "children": [
+                {
+                    "isVisible": true,
+                    "widgetName": "Canvas2",
+                    "version": 1,
+                    "detachFromLayout": true,
+                    "type": "CANVAS_WIDGET",
+                    "hideCard": true,
+                    "displayName": "Canvas",
+                    "key": "1u8lo9ueof",
+                    "containerStyle": "none",
+                    "canExtend": false,
+                    "children": [
+                        {
+                            "isVisible": true,
+                            "animateLoading": true,
+                            "text": "home",
+                            "buttonColor": "#3366FF",
+                            "buttonVariant": "TERTIARY",
+                            "placement": "CENTER",
+                            "widgetName": "Button6",
+                            "isDisabled": false,
+                            "isDefaultClickDisabled": true,
+                            "recaptchaType": "V3",
+                            "version": 1,
+                            "classStyle": "",
+                            "type": "BUTTON_WIDGET",
+                            "hideCard": false,
+                            "displayName": "Button",
+                            "key": "a8zcefmea1",
+                            "iconSVG": "/static/media/icon.cca02633.svg",
+                            "widgetId": "vjp42tnc91",
+                            "renderMode": "CANVAS",
+                            "isLoading": false,
+                            "parentColumnSpace": 15.71875,
+                            "parentRowSpace": 10,
+                            "leftColumn": 19,
+                            "rightColumn": 31,
+                            "topRow": 0,
+                            "bottomRow": 4,
+                            "parentId": "0c06btyn7y",
+                            "dynamicBindingPathList": [],
+                            "dynamicTriggerPathList": [
+                                {
+                                    "key": "onClick"
+                                }
+                            ],
+                            "iconName": "home",
+                            "iconAlign": "left",
+                            "borderRadius": "ROUNDED",
+                            "boxShadow": "NONE",
+                            "onClick": "{{navigateTo('home', {})}}"
+                        },
+                        {
+                            "isVisible": true,
+                            "animateLoading": true,
+                            "text": "Collections",
+                            "buttonColor": "#3366FF",
+                            "buttonVariant": "TERTIARY",
+                            "placement": "CENTER",
+                            "widgetName": "Button6Copy",
+                            "isDisabled": false,
+                            "isDefaultClickDisabled": true,
+                            "recaptchaType": "V3",
+                            "version": 1,
+                            "classStyle": "",
+                            "type": "BUTTON_WIDGET",
+                            "hideCard": false,
+                            "displayName": "Button",
+                            "key": "a8zcefmea1",
+                            "iconSVG": "/static/media/icon.cca02633.svg",
+                            "widgetId": "tdgldchgh4",
+                            "renderMode": "CANVAS",
+                            "isLoading": false,
+                            "parentColumnSpace": 15.71875,
+                            "parentRowSpace": 10,
+                            "leftColumn": 31,
+                            "rightColumn": 42,
+                            "topRow": 0,
+                            "bottomRow": 4,
+                            "parentId": "0c06btyn7y",
+                            "dynamicBindingPathList": [],
+                            "dynamicTriggerPathList": [
+                                {
+                                    "key": "onClick"
+                                }
+                            ],
+                            "iconName": "applications",
+                            "iconAlign": "left",
+                            "borderRadius": "ROUNDED",
+                            "boxShadow": "NONE",
+                            "onClick": "{{navigateTo('Collections', {})}}"
+                        },
+                        {
+                            "isVisible": true,
+                            "animateLoading": true,
+                            "text": "Gallery",
+                            "buttonColor": "#3366FF",
+                            "buttonVariant": "TERTIARY",
+                            "placement": "CENTER",
+                            "widgetName": "Button6Copy1",
+                            "isDisabled": false,
+                            "isDefaultClickDisabled": true,
+                            "recaptchaType": "V3",
+                            "version": 1,
+                            "classStyle": "",
+                            "type": "BUTTON_WIDGET",
+                            "hideCard": false,
+                            "displayName": "Button",
+                            "key": "a8zcefmea1",
+                            "iconSVG": "/static/media/icon.cca02633.svg",
+                            "widgetId": "ksy4kja5fl",
+                            "renderMode": "CANVAS",
+                            "isLoading": false,
+                            "parentColumnSpace": 15.71875,
+                            "parentRowSpace": 10,
+                            "leftColumn": 42,
+                            "rightColumn": 53,
+                            "topRow": 0,
+                            "bottomRow": 4,
+                            "parentId": "0c06btyn7y",
+                            "dynamicBindingPathList": [],
+                            "dynamicTriggerPathList": [
+                                {
+                                    "key": "onClick"
+                                }
+                            ],
+                            "borderRadius": "ROUNDED",
+                            "iconName": "media",
+                            "iconAlign": "left",
+                            "boxShadow": "NONE",
+                            "onClick": "{{navigateTo('Gallery', {})}}"
+                        },
+                        {
+                            "isVisible": true,
+                            "text": "Open AI Integration",
+                            "fontSize": "HEADING1",
+                            "fontStyle": "",
+                            "textAlign": "LEFT",
+                            "textColor": "#666",
+                            "truncateButtonColor": "#FFC13D",
+                            "widgetName": "Text2",
+                            "shouldTruncate": false,
+                            "overflow": "NONE",
+                            "version": 1,
+                            "animateLoading": true,
+                            "type": "TEXT_WIDGET",
+                            "hideCard": false,
+                            "displayName": "Text",
+                            "key": "lpvo8jiqza",
+                            "iconSVG": "/static/media/icon.97c59b52.svg",
+                            "widgetId": "eao2zsjltb",
+                            "renderMode": "CANVAS",
+                            "isLoading": false,
+                            "parentColumnSpace": 14.78125,
+                            "parentRowSpace": 10,
+                            "leftColumn": 0,
+                            "rightColumn": 19,
+                            "topRow": 0,
+                            "bottomRow": 4,
+                            "parentId": "0c06btyn7y",
+                            "dynamicBindingPathList": [],
+                            "dynamicTriggerPathList": []
+                        },
+                        {
+                            "isVisible": true,
+                            "animateLoading": true,
+                            "text": "Filtered Gallery",
+                            "buttonColor": "#3366FF",
+                            "buttonVariant": "TERTIARY",
+                            "placement": "CENTER",
+                            "widgetName": "Button7",
+                            "isDisabled": false,
+                            "isDefaultClickDisabled": true,
+                            "recaptchaType": "V3",
+                            "version": 1,
+                            "classStyle": "",
+                            "type": "BUTTON_WIDGET",
+                            "hideCard": false,
+                            "displayName": "Button",
+                            "key": "8x029rhx3m",
+                            "iconSVG": "/static/media/icon.cca02633.svg",
+                            "widgetId": "fpqsctijl0",
+                            "renderMode": "CANVAS",
+                            "isLoading": false,
+                            "parentColumnSpace": 15.40625,
+                            "parentRowSpace": 10,
+                            "leftColumn": 53,
+                            "rightColumn": 64,
+                            "topRow": 0,
+                            "bottomRow": 4,
+                            "parentId": "0c06btyn7y",
+                            "dynamicBindingPathList": [],
+                            "dynamicTriggerPathList": [
+                                {
+                                    "key": "onClick"
+                                }
+                            ],
+                            "iconName": "filter-keep",
+                            "iconAlign": "left",
+                            "onClick": "{{navigateTo('Filtered Gallery', {})}}"
+                        }
+                    ],
+                    "minHeight": 400,
+                    "widgetId": "0c06btyn7y",
+                    "renderMode": "CANVAS",
+                    "isLoading": false,
+                    "parentColumnSpace": 1,
+                    "parentRowSpace": 1,
+                    "leftColumn": 0,
+                    "rightColumn": 377.25,
+                    "topRow": 0,
+                    "bottomRow": 390,
+                    "parentId": "p8ctg6yxm2"
+                }
+            ],
+            "version": 1,
+            "type": "FUNCTION_WIDGET",
+            "hideCard": false,
+            "displayName": "Function",
+            "key": "bd7bi1jazl",
+            "iconSVG": "/static/media/icon.1977dca3.svg",
+            "isCanvas": true,
+            "widgetId": "p8ctg6yxm2",
+            "renderMode": "CANVAS",
+            "isLoading": false,
+            "parentColumnSpace": 15.71875,
+            "parentRowSpace": 10,
+            "leftColumn": 0,
+            "rightColumn": 64,
+            "topRow": 0,
+            "bottomRow": 6,
+            "parentId": "0",
+            "dynamicBindingPathList": [],
+            "dynamicTriggerPathList": []
+        }
+    ],
+    "gitApplicationMetadata": {
+        "browserSupportedRemoteUrl": "https://github.com/UBOS-tech/ubos-template-AI-image-generation-UI",
+        "defaultApplicationId": "dalee",
+        "defaultBranchName": "main",
+        "isRepoPrivate": true,
+        "remoteUrl": "git@github.com:UBOS-tech/ubos-template-AI-image-generation-UI.git",
+        "repoName": "ubos-template-AI-image-generation-UI"
+    }
+}

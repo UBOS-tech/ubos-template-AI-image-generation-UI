@@ -1,0 +1,47 @@
+[
+    {
+        "name": "JSObject1",
+        "pageId": "Gallery",
+        "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\t//write code here\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+        "variables": [
+            {
+                "name": "myVar1",
+                "value": []
+            },
+            {
+                "name": "myVar2",
+                "value": {}
+            }
+        ],
+        "actions": [
+            {
+                "name": "myFun1",
+                "pageId": "Gallery",
+                "executeOnLoad": false,
+                "actionConfiguration": {
+                    "body": "() => {\n\t\t//write code here\n\t}",
+                    "isAsync": false,
+                    "timeoutInMillisecond": 0,
+                    "jsArguments": []
+                },
+                "clientSideExecution": true
+            },
+            {
+                "name": "myFun2",
+                "pageId": "Gallery",
+                "executeOnLoad": false,
+                "actionConfiguration": {
+                    "body": "async () => {\n\t\t//use async-await or promises\n\t}",
+                    "isAsync": true,
+                    "timeoutInMillisecond": 0,
+                    "jsArguments": []
+                },
+                "clientSideExecution": true
+            }
+        ],
+        "applicationId": "dalee",
+        "pluginType": "JS",
+        "_id": "63fcd9e24fe6cc79294a96f4",
+        "id": "63fcd9e24fe6cc79294a96f4"
+    }
+]
