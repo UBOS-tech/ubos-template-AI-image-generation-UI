@@ -20,3 +20,9 @@ Users can easily generate new images with the template's user-friendly interface
 Whether you're an artist, designer, or simply curious about the potential of AI, this template is the perfect tool for exploring your creativity. With its advanced features and intuitive design, it makes creating stunning visual content easier and more accessible than ever before.
 
 In short, this repository offers a powerful and innovative way to harness the power of AI for visual content creation. With its robust functionality and easy-to-use interface, it's a must-have tool for anyone looking to push the boundaries of what's possible in digital art and design.
+
+## Demo
+![ig-1](https://github.com/UBOS-tech/ubos-template-AI-image-generation-UI/assets/41735477/ede34f77-9b79-436b-88d1-807243a52807)
+![ig-2](https://github.com/UBOS-tech/ubos-template-AI-image-generation-UI/assets/41735477/94612269-35c0-4cb7-a415-e3b17fc339aa)
+![ig-3](https://github.com/UBOS-tech/ubos-template-AI-image-generation-UI/assets/41735477/7d49ae24-6766-4ea2-8d1f-4ee51ad6ad7d)
+![ig-4](https://github.com/UBOS-tech/ubos-template-AI-image-generation-UI/assets/41735477/c3adc6cf-bcc9-4fb9-bdcb-d2c3a08380ac)
