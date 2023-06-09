@@ -13,6 +13,13 @@ AI Image generation
   <a href="https://github.com/UBOS-tech">GitHub</a>
   </h3>
 
+<div align="center">
+  
+  [![Use template](https://ubos.tech/wp-content/uploads/2023/06/download-logo.png)](https://platform.ubos.tech/?templateId=64539a543023c6001004f3b2)
+  [![Demo](https://ubos.tech/wp-content/uploads/2023/06/Group-19.png)](https://youtu.be/JjRzTsq-dIw)
+  
+</div>
+
 This repository features a cutting-edge template that empowers users to generate high-quality images through the use of artificial intelligence. With the help of OpenAI's advanced API, this template allows users to explore the limitless creative possibilities that AI technology can provide.
 
 Users can easily generate new images with the template's user-friendly interface, which offers a range of customizable options to suit individual needs and preferences. These generated images can then be saved to a collection, where they can be accessed. Additionally, the template allows users to download their images , enabling easy integration into a variety of projects and workflows.
